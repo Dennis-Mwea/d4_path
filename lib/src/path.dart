@@ -291,6 +291,8 @@ class Path {
     _append("Z");
   }
 
+  void customPath(String path) => _ += path;
+
   /// Returns the string representation of this *path* according to SVG’s
   /// [path data specification](http://www.w3.org/TR/SVG/paths.html#PathData).
   ///
